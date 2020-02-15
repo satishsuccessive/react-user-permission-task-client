@@ -3,16 +3,21 @@ import { gql } from 'apollo-boost';
 export const getData = gql`
 query {
     getUser{
-      traineeEmail
-      reviewerEmail
+      inputEmail
+      selectRole
     }
   }
  `
+
 export const getRoleData = gql`
-query {
-    getRole{
-        inputEmail
-        selectRole
+query getRole($data:Role){
+    getRole(data:$data)
+    {
+      read
+      write
+      delete
+      error
+      role
     }
 }`
 
@@ -22,5 +27,6 @@ mutation postData($data:UserDetails){
   postData(data:$data){
     inputMsg
     roleMsg
+    error
   }
 }`

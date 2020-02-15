@@ -9,39 +9,24 @@ import {
 } from 'react-router-dom';
 
 const PermissionView = (props) => {
-    // const [ visible, setVisible] = useState('disabled');
-    const [ redirect, setRedirect] = useState('');
-
-    const { loading, error, data } = useQuery(getRoleData);
-    if(loading) return <p>Loading...</p>;
-    if(error) return <p>Error :(</p>;
-    // if (data.getRole.length===0) return<p>Ooops Don't have data</p>;
-    // const checkpermission = () => {
-    //     console.log('yooooo');
-    //     setVisible('');
-    // }
+    const [ redirect, setRedirect] = useState(false);
+    const [ redirectView, setRedirectView] = useState(false);
+    const {location} = props;
+    const permissionData = location.state.permission;
   
       const renderRedirect = () => {
-        if (redirect) {
-          return <Redirect to='/users' />
+        if (redirect) return <Redirect to='/read' />
+        if (redirectView) return <Redirect to={{ pathname: "/write", state: {flag:true,permission:'ok'} }} />
         }
-      }
+      
 
     return(
         <>
         <Container>
-        { (data.getRole.length===0) && <p>Ooops Don't have data</p>}
-        { data.getRole.map((item, index) => (
-        <div>
-        <h3>User: {item.inputEmail} Role:{item.selectRole}</h3>
-        
-        <Button disabled={hasPermissions("getUsers", "trainee", "read")} onClick={() => setRedirect(true)}>Read</Button>
-        {renderRedirect()}
-        <Button disabled={hasPermissions("getUsers", item.selectRole, "write")}>Write</Button>
-        <Button disabled={hasPermissions("getUsers", item.selectRole, "delete")}>Delete</Button>
-        </div>
-        ))
-        }
+        {renderRedirect()}        
+        <Button disabled={permissionData.read} onClick={() => setRedirect(true)}>Read</Button>
+        <Button disabled={permissionData.write} onClick={() =>setRedirectView(true)}>Write</Button>
+        <Button disabled={permissionData.delete}>Delete</Button>
         </Container>
         </>
 

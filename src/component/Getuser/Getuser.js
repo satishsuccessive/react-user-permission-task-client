@@ -6,7 +6,6 @@ import { getData } from '../../Apollo/query';
 const Getuser = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const { loading, error, data } = useQuery(getData);
-    console.log(data,"<<<Dataa",loading,error)
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error :(</p>;
  

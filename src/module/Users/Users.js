@@ -8,7 +8,6 @@ const Getuser = () => {
     const { loading, error, data } = useQuery(getData);
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error :(</p>;
- 
     return(
         <div>
           <TableContainer>  
@@ -16,8 +15,8 @@ const Getuser = () => {
           <tbody>
               <tr>
             <th>Sno.</th>
-            <th>Trainee Email</th>
-            <th>Reviewer Email</th>
+            <th>Users</th>
+            <th>Role</th>
             </tr>
     { data.getUser.map((item, index) => (
         <>
@@ -25,12 +24,12 @@ const Getuser = () => {
     <td>{index+1}</td>
       <td key={index}>
         <p>
-          {item.traineeEmail}
+          {item.inputEmail}
         </p>
       </td>
       <td key={index}>
         <p>
-          {item.reviewerEmail}
+          {item.selectRole}
         </p>
       </td>
       </tr>

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import MainContainer from 'react-js-snackbar';
 
 const FormContainer = styled.div`
 width:500px;
@@ -64,9 +63,4 @@ border-radius:10px;
       margin-top:10px;
   }
 `;
-const SnackBarCon = styled(MainContainer)`
-bottom:auto !important;
-top:30px !important;
-position:static !important;
-`
-export { FormContainer, SnackBarCon };
+export default FormContainer;

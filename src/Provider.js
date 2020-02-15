@@ -5,7 +5,6 @@ import { ApolloProvider } from 'react-apollo';
 import client from './Apollo';
 
 const Provider = ({ children }) => {
-    console.log(client,"<<<<client")
  return(
   <Router>
     <ApolloProvider client={client}>

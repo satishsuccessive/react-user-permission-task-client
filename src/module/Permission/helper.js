@@ -10,11 +10,8 @@ const permissions = {
     
 export const hasPermissions = (moduleName, role, permissionType) => {
     if(permissions[moduleName][permissionType].includes(role)){
-    console.log("true")
     return '';
     }else {
-    console.log(permissions[moduleName][permissionType].includes(role),'------');
-    console.log("false")
     return 'disabled';
     }
     }

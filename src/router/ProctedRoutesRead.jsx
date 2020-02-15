@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route, Router, Redirect, useLocation } from 'react-router-dom';
-import Permission from '../module/Permission';
+import UpdateRoll from '../module/Updateroll';
 
 
 class ProtectedRoute extends Component {
@@ -8,11 +8,11 @@ class ProtectedRoute extends Component {
       const { component: Component, ...props } = this.props
       return (
         <Route 
-          {...props} 
-          render={props => (
-            this.props.location.state.flag ===true ? <Permission {...props} /> : <Redirect to='/' />
-          )} 
-        />
+        {...props} 
+        render={props => (
+          this.props.location.state !==undefined ? <UpdateRoll {...props} /> : <Redirect to='/' />
+        )} 
+      />
       )
     }
   }
