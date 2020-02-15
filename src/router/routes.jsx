@@ -1,13 +1,10 @@
-import React, { useContext, lazy, Suspense } from 'react';
-import { Switch, Route, Router, Redirect, useLocation } from 'react-router-dom';
-import RouteKey from '../router/RoutKey';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import Form from '../module/Form';
 import UserData from '../module/Users';
 import PermissionView from '../module/Permission/Permission';
 import UpdateRoll from '../module/Updateroll';
-// import {Form, UserData, PermissionView} from '../module'
 import ProtectedRoute from './ProtectedRoutes';
-import ProtectedRoutesRead from './ProctedRoutesRead';
 import NotFound from '../module/NotFound'
 
 

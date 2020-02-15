@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { InputField, SubmitButton } from '../../component'
 import { postData } from '../../libs/utils/graphql';
-import { Mutation } from 'react-apollo';
 import FormContainer from './style';
-import { Switch, Route, Router, Redirect, useLocation } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import * as yup from 'yup';
 import { withApollo } from 'react-apollo';
 import ReactSnackBar from "react-js-snackbar";
@@ -109,7 +108,7 @@ render(){
           <option value="">Select Role</option>
           <option value="trainee">Trainee</option>
           <option value="trainer">Trainer</option>
-          <option value="head_trainee">Head Trainee</option>
+          <option value="head_trainer">Head Trainee</option>
         </select><label>Role</label>
           <span>{errors.selectRole}</span>
           {data && data.postData && data.postData.error &&

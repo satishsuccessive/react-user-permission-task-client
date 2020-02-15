@@ -1,5 +1,7 @@
-import Getuser from './Getuser';
+// import Getuser from './Getuser';
 import InputField from './InputField';
 import SubmitButton from './SubmitButton';
+import Header from './Header';
+import Footer from './Footer'
 
-export {Getuser, InputField, SubmitButton}
+export {InputField, SubmitButton, Header, Footer}

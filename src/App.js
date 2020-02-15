@@ -1,21 +1,19 @@
 import React from 'react';
 import Provider from './Provider';
-import { Getuser } from './component';
-import Form from './module/Form';
+import { Header, Footer } from './component';
 import { BrowserRouter } from 'react-router-dom';
 import Routes from './router';
+import './index.css';
 
 
 function App(props) {
   return (
     <Provider>
+      <Header></Header>
       <BrowserRouter>
-      {/* <div>
-        <Getuser />
-        <Form />
-      </div> */}
       <Routes {...props} />
       </BrowserRouter>
+      <Footer></Footer>
     </Provider>
   );
 }
