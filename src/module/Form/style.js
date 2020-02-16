@@ -63,10 +63,12 @@ border-radius:10px;
       border:1px solid #E03616;
       margin-top:10px;
   }
+  span.snack+div {
+    bottom:100px !important;
+    transition:0.6s;
+  }
 `;
 const SnackBarCon = styled(MainContainer)`
-bottom:auto !important;
-top:30px !important;
-position:static !important;
+
 `
 export { FormContainer, SnackBarCon };

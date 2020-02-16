@@ -112,8 +112,9 @@ class Form extends Component {
             <option value="trainer">Trainer</option>
             <option value="head_trainee">Head Trainee</option>
           </select><label>Role</label>
-            <span>{errors.selectRole}</span>
-            {data.getRole && data.getRole.error &&    
+            <span className="snack">{errors.selectRole}</span>
+            {data.getRole && data.getRole.error &&  
+          
           <ReactSnackBar Show={this.state.Show}>
             {data.getRole.error}
           </ReactSnackBar>
