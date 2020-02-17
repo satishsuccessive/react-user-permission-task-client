@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.c40e65d1.chunk.js",
-    "main.js.map": "/static/js/main.c40e65d1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cfe419c5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cfe419c5.js.map",
-    "static/js/2.80b811ae.chunk.js": "/static/js/2.80b811ae.chunk.js",
-    "static/js/2.80b811ae.chunk.js.map": "/static/js/2.80b811ae.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.97283d245c57981a9cc12b8d8c2fc54d.js": "/precache-manifest.97283d245c57981a9cc12b8d8c2fc54d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.80b811ae.chunk.js.LICENSE.txt": "/static/js/2.80b811ae.chunk.js.LICENSE.txt",
-    "static/media/losted.png": "/static/media/losted.92bd2c2a.png"
+    "main.css": "/react-user-permission-task-client/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/react-user-permission-task-client/static/js/main.b808f058.chunk.js",
+    "main.js.map": "/react-user-permission-task-client/static/js/main.b808f058.chunk.js.map",
+    "runtime-main.js": "/react-user-permission-task-client/static/js/runtime-main.a076a3e8.js",
+    "runtime-main.js.map": "/react-user-permission-task-client/static/js/runtime-main.a076a3e8.js.map",
+    "static/js/2.24529640.chunk.js": "/react-user-permission-task-client/static/js/2.24529640.chunk.js",
+    "static/js/2.24529640.chunk.js.map": "/react-user-permission-task-client/static/js/2.24529640.chunk.js.map",
+    "index.html": "/react-user-permission-task-client/index.html",
+    "precache-manifest.d691a9f600f55644e991fc7f3189b9d1.js": "/react-user-permission-task-client/precache-manifest.d691a9f600f55644e991fc7f3189b9d1.js",
+    "service-worker.js": "/react-user-permission-task-client/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/react-user-permission-task-client/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.24529640.chunk.js.LICENSE.txt": "/react-user-permission-task-client/static/js/2.24529640.chunk.js.LICENSE.txt",
+    "static/media/losted.png": "/react-user-permission-task-client/static/media/losted.92bd2c2a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfe419c5.js",
-    "static/js/2.80b811ae.chunk.js",
+    "static/js/runtime-main.a076a3e8.js",
+    "static/js/2.24529640.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c40e65d1.chunk.js"
+    "static/js/main.b808f058.chunk.js"
   ]
 }
