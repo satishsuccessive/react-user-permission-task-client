@@ -5,18 +5,18 @@
     "main.js.map": "/react-user-permission-task-client/static/js/main.b808f058.chunk.js.map",
     "runtime-main.js": "/react-user-permission-task-client/static/js/runtime-main.a076a3e8.js",
     "runtime-main.js.map": "/react-user-permission-task-client/static/js/runtime-main.a076a3e8.js.map",
-    "static/js/2.3cd49b82.chunk.js": "/react-user-permission-task-client/static/js/2.3cd49b82.chunk.js",
-    "static/js/2.3cd49b82.chunk.js.map": "/react-user-permission-task-client/static/js/2.3cd49b82.chunk.js.map",
+    "static/js/2.24529640.chunk.js": "/react-user-permission-task-client/static/js/2.24529640.chunk.js",
+    "static/js/2.24529640.chunk.js.map": "/react-user-permission-task-client/static/js/2.24529640.chunk.js.map",
     "index.html": "/react-user-permission-task-client/index.html",
-    "precache-manifest.0ecb3d661886c99774e3e46bb6af2ca2.js": "/react-user-permission-task-client/precache-manifest.0ecb3d661886c99774e3e46bb6af2ca2.js",
+    "precache-manifest.d691a9f600f55644e991fc7f3189b9d1.js": "/react-user-permission-task-client/precache-manifest.d691a9f600f55644e991fc7f3189b9d1.js",
     "service-worker.js": "/react-user-permission-task-client/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/react-user-permission-task-client/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.3cd49b82.chunk.js.LICENSE.txt": "/react-user-permission-task-client/static/js/2.3cd49b82.chunk.js.LICENSE.txt",
+    "static/js/2.24529640.chunk.js.LICENSE.txt": "/react-user-permission-task-client/static/js/2.24529640.chunk.js.LICENSE.txt",
     "static/media/losted.png": "/react-user-permission-task-client/static/media/losted.92bd2c2a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a076a3e8.js",
-    "static/js/2.3cd49b82.chunk.js",
+    "static/js/2.24529640.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
     "static/js/main.b808f058.chunk.js"
   ]

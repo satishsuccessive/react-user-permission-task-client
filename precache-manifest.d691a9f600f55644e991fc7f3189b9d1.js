@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "826937514cee0435d392e1597d2479fb",
+    "revision": "67f2d29a19a6712c264220c6eb818949",
     "url": "/react-user-permission-task-client/index.html"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-user-permission-task-client/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "b865d51733d0653aff4d",
-    "url": "/react-user-permission-task-client/static/js/2.3cd49b82.chunk.js"
+    "revision": "f23ac52835bff2445e22",
+    "url": "/react-user-permission-task-client/static/js/2.24529640.chunk.js"
   },
   {
     "revision": "0bdc4f0d8b3d84ae6a73bb9902b479ee",
-    "url": "/react-user-permission-task-client/static/js/2.3cd49b82.chunk.js.LICENSE.txt"
+    "url": "/react-user-permission-task-client/static/js/2.24529640.chunk.js.LICENSE.txt"
   },
   {
     "revision": "d975ba55619c7f8bc2d9",
